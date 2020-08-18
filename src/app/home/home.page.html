@@ -1,19 +1,21 @@
 <ion-header>
   <ion-toolbar color="primary">
     <ion-title>
-      My Notes
+      ESFOT
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="title-block">
-    <div class="heading">My Notes</div>
+    <div class="heading">
+      <img src="assets/img/buho.png" width="90px" style="align:center">
+    </div>
   </div>
   <ion-searchbar></ion-searchbar>
   <ion-list>
     <ion-list-header>
-      <ion-label>Notes</ion-label>
+      <ion-label>Calificaciones: </ion-label>
     </ion-list-header>
     <ion-item *ngFor="let note of (notes | async)">
       <ion-thumbnail slot="start">

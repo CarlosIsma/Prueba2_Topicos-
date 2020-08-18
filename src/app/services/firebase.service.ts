@@ -25,6 +25,7 @@ export class FirebaseService {
     );
   }
 
+  //Consultar
   getNotes(): Observable<Note[]> {
     return this.notes;
   }
@@ -39,15 +40,26 @@ export class FirebaseService {
     );
   }
 
+  //Crear
   addNote(note: Note): Promise<DocumentReference> {
     return this.noteCollection.add(note);
   }
 
+  //Modificar
   updateNote(note: Note): Promise<void> {
     return this.noteCollection.doc(note.id).update({ title: note.title, content: note.content });
   }
 
+  //Borrar
   deleteNote(id: string): Promise<void> {
     return this.noteCollection.doc(id).delete();
+  }
+}
+
+var numero = document.getElementById('numero');
+
+function comprueba(valor){
+  if(valor.value < 0){
+    valor.value = 1;
   }
 }

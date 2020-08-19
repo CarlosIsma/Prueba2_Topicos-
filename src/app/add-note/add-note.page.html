@@ -1,17 +1,23 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <ion-title>Nueva Nota</ion-title>
+    <ion-title>Nueva Calificacion</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  
 <ion-list>
+  <form [formGroup]="formularioContacto">
   <ion-item>
-    <ion-input placeholder="Materia" [(ngModel)]="note.title"></ion-input>
+    <ion-input placeholder="Materia" [(ngModel)]="note.title" type="text"  required="true"></ion-input>
+  </form>
   </ion-item>
+  
   <ion-item>
-    <ion-input id="numero" type="number" min="1" pattern="^[0-9]+" onkeypress="comprueba(this)" rows="6" [(ngModel)]="note.content" placeholder="Ingresa una calificación..."></ion-input>
+    <ion-input id="numero" type="number" min="1" pattern="^[0-9]+" onkeypress="comprueba(this)" rows="6" [(ngModel)]="note.content" placeholder="Ingresa una calificación..." required="true"></ion-input>
   </ion-item>
+
 </ion-list>
-  <ion-button color="primary" expand="full" (click)="addNote()">Crear</ion-button>
+  <ion-button color="success" expand="full" (click)="addNote()" [disabled]="formularioContacto.valid" >Crear</ion-button>
+
 </ion-content>

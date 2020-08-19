@@ -43,9 +43,8 @@ Facultad: ESFOT
 ![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/11.PNG)
 
 10. Resultado:
-![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/12.png)
-![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/13.png)
-![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/14.png)
+![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/12.png)![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/13.png)![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/14.png)
+
 Asignatura: Tópcios Especiales\
 Facultad: ESFOT
 

@@ -14,7 +14,7 @@ Facultad: ESFOT
 2. `npm install` para instalar dependencias
 3. Si tiene [ionic cli] (https://ionicframework.com/docs/cli/) instalado, `npm start` para servir ionic.
 
-### Resultado
+### Desarrollo
 1. Creamos un nuevo proyecto en Ionic: `npm install`.
 ![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/1.PNG)
 
@@ -42,7 +42,7 @@ Facultad: ESFOT
 9. Rutas
 ![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/11.PNG)
 
-10. Resultado:
+### Resultado
 ![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/12.png)![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/13.png)![](https://raw.githubusercontent.com/SANMH/Prueba2_Topicos-/master/assets/14.png)
 
 Asignatura: Tópcios Especiales\
